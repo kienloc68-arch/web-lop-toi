@@ -320,3 +320,29 @@ hr {
 .fancy-btn:active {
   transform: translateY(-1px);
 }
+/* Nút màu Xanh Lá (Green) */
+.fancy-btn.btn-green {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.35);
+}
+.fancy-btn.btn-green:hover {
+  box-shadow: 0 8px 25px rgba(5, 150, 105, 0.45);
+}
+
+/* Nút màu Cam/Đỏ (Orange) */
+.fancy-btn.btn-orange {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.35);
+}
+.fancy-btn.btn-orange:hover {
+  box-shadow: 0 8px 25px rgba(234, 88, 12, 0.45);
+}
+
+/* Nút màu Xanh Biển/Cyan */
+.fancy-btn.btn-cyan {
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  box-shadow: 0 4px 15px rgba(6, 182, 212, 0.35);
+}
+.fancy-btn.btn-cyan:hover {
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.45);
+}
